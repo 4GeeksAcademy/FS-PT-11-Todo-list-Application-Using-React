@@ -42,7 +42,7 @@ const Home = () => {
                 )
               }
             >
-              <a href="#">X</a>
+              <span>X</span>
             </i>
           </li>
         ))}

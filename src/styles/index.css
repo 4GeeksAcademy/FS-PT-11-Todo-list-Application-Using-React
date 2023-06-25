@@ -54,16 +54,17 @@ h1 {
   opacity: 50%;
 }
 
-a {
+span {
   opacity: 20%;
   color: darkred;
   text-decoration: none;
   font-style: normal;
 }
 
-a:hover {
+span:hover {
   opacity: 100;
   color: darkred;
   text-decoration: none;
   font-style: normal;
+  cursor: pointer;
 }
