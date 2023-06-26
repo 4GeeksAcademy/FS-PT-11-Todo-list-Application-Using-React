@@ -19,6 +19,10 @@ const Home = () => {
     }
   };
 
+  const handleClearTasks = () => {
+    setTodos([]);
+  };
+
   return (
     <div className="box">
       <h1>ToDos</h1>
@@ -48,6 +52,11 @@ const Home = () => {
         ))}
         <li>{todos.length} tasks</li>
       </ul>
+      <div>
+        <button className="clear" onClick={handleClearTasks}>
+          clear all tasks
+        </button>
+      </div>
     </div>
   );
 };
