@@ -54,7 +54,7 @@ const Home = () => {
       </ul>
       <div>
         <button className="clear" onClick={handleClearTasks}>
-          clear all tasks
+          Clear all tasks
         </button>
       </div>
     </div>
