@@ -55,14 +55,11 @@ h1 {
   margin: 15px;
 }
 
-span {
-  opacity: 20%;
-  color: darkred;
-  text-decoration: none;
-  font-style: normal;
+.list span {
+  opacity: 0;
 }
 
-span:hover {
+.list:hover span {
   opacity: 100;
   color: darkred;
   text-decoration: none;

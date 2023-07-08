@@ -37,17 +37,17 @@ const Home = () => {
           />
         </li>
         {todos.map((todo, index) => (
-          <li key={index}>
+          <li className="list" key={index}>
             {todo}{" "}
-            <i
+            <span
               onClick={() =>
                 setTodos(
                   todos.filter((t, currentIndex) => index != currentIndex)
                 )
               }
             >
-              <span>X</span>
-            </i>
+              X
+            </span>
           </li>
         ))}
         <li>{todos.length} tasks</li>
